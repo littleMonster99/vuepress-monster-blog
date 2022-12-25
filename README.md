@@ -1,15 +1,21 @@
-vuepress-monster-blog
-介绍
+# vuepress-monster-blog
+
+#### 介绍
+
 用于工作学习记录
 
-软件架构
-软件架构说明
+#### 软件架构
 
-安装教程
+框架使用：vuepress
+
+#### 安装教程
+
 xxxx
 xxxx
 xxxx
-使用说明
+
+#### 使用说明
+
 git init
 git remote add origin https的地址
 git pull origin master(此处拉取得是master分支的代码)
@@ -20,8 +26,14 @@ git remote add origin https的地址
 若出现fatal:remote origin already exists，需先删除再添加 git remote rm origin
 git remote add origin https的地址
 git push -u origin master
-若出现failed to push some refs to git，原因是码云上存在的README.md文件不在本地项目中 git pull --rebase origin master git push origin master
-参与贡献
+若出现failed to push some refs to git，原因是码云上存在的README.md文件不在本地项目中 
+
+git pull --rebase origin master 
+
+git push origin master
+
+#### 参与贡献
+
 Fork 本仓库
 新建 Feat_xxx 分支
 提交代码
